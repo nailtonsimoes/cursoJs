@@ -1,3 +1,7 @@
-//window.alert('ola mundo!')
+function voltar() {
+  history.back()
+}
 
-window.console.log(window.document.getElementById('titulo').innerHTML)
+function adiantar() {
+  history.forward()
+}
