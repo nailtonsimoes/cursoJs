@@ -1,9 +1,5 @@
-console.log(document.getElementsByTagName('div')[0].innerHTML)
-console.log(document.getElementsByTagName('br'))
-console.log(document.getElementsByTagName('br')[0])
-console.log(document.getElementsByTagName('p'))
-console.log(document.getElementsByTagName('p')[0])
-console.log(document.getElementsByTagName('p')[0].innerHTML)
-console.log(document.querySelector('.div2'))
-console.log(document.querySelector('p'))
-console.log(document.querySelector('#p2'))
+console.log(document.querySelectorAll('.times'))
+console.log(
+  document.getElementById('futebol-europeu').querySelectorAll('.times')[0]
+    .innerHTML
+)
